@@ -1,0 +1,134 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling the whole card */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-radius: 10px;
+    height: 450px;
+    max-width: 900px;
+    margin: 15px auto;
+}
+
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 30px;
+}
+
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+    height: 100%;
+}
+
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+
+/* Styling contents of the card */
+img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 10px 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin: 20px 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+
+}
+
+/* Styling the buttons */
+button {
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    border-radius: 30px;
+    height: 40px;
+    width: 140px;
+    margin: 40px 20px;
+
+}
+
+.card1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.card2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.card3 button {
+    color: hsl(179, 100%, 13%);
+}
+
+/* Buttons hover effect */
+.card1 button:hover {
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.card2 button:hover {
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.card3 button:hover {
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+
+
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
