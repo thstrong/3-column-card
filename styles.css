@@ -7,7 +7,6 @@
 
 body {
     position: relative;
-    width: 100%;
 }
 
 main {
@@ -135,16 +134,17 @@ footer {
     position: absolute;
     bottom: 0;
     height: 2rem;
+    width: 100%;
 }
 
 
 
 @media (max-width: 375px) {
 
-    body,
     .content {
         flex-direction: column;
         justify-content: flex-start;
+        margin: 10px;
     }
 
 
