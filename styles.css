@@ -5,8 +5,13 @@
 
 }
 
+body {
+    position: relative;
+    width: 100%;
+}
 
 main {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,9 +131,15 @@ button {
     border: 2px solid hsl(0, 0%, 95%);
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 2rem;
+}
 
 
-@media (max-width: 600px) {
+
+@media (max-width: 375px) {
 
     body,
     .content {
