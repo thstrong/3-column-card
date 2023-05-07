@@ -139,7 +139,14 @@ footer {
     .content {
         flex-direction: column;
         justify-content: flex-start;
-        margin: 10px;
+        max-width: 350px;
+        margin: 0 10px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        max-height: 400px;
     }
 
 
