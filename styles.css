@@ -5,18 +5,16 @@
 
 }
 
-body {
-    position: relative;
-}
-
+body,
 main {
-
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
 }
+
 
 /* Styling the whole card */
 
@@ -131,10 +129,7 @@ button {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    height: 2rem;
-    width: 100%;
+    margin-top: auto;
 }
 
 
