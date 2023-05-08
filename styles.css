@@ -138,7 +138,6 @@ footer {
     .content {
         flex-direction: column;
         top: 0;
-        padding: 20px;
         height: auto;
         width: 100%;
     }
