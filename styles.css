@@ -19,15 +19,13 @@ main {
 /* Styling the whole card */
 
 .content {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
     border-radius: 10px;
-    height: 450px;
-    max-width: 900px;
-    /* margin: 10px auto; */
-
+    height: 400px;
 }
 
 .card1,
@@ -36,7 +34,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 10px 30px;
+    padding: 10px;
+    width: 280px;
 }
 
 .card1 {
@@ -74,7 +73,7 @@ h1 {
 
 p {
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     margin: 20px 20px;
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 25px;
@@ -90,7 +89,7 @@ button {
     border-radius: 30px;
     height: 40px;
     width: 140px;
-    margin: 40px 20px;
+    margin: 20px 20px;
 
 }
 
@@ -134,14 +133,14 @@ footer {
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
 
     .content {
         flex-direction: column;
-        justify-content: flex-start;
-        max-width: 350px;
-        max-height: 1400px;
-        margin: 0 10px;
+        top: 0;
+        padding: 20px;
+        height: auto;
+        width: 100%;
     }
 
     .card1 {
